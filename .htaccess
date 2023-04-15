@@ -1,2 +1,1 @@
-RewriteEngine On
-RewriteRule "^(.*/)?\.git/" - [F,L]
+RedirectMatch 404 /\.git
